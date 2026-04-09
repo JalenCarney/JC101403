@@ -34,13 +34,13 @@ plugins:
 # -----------------------------------------------------------------------------
 
 minimal_mistakes_skin: "default"
-site_author: "Your Name"
+site_author: "Jalen Carney"
 paginate: 5
 words_per_minute: 200
 
 # Masthead (Top Navigation) Settings
 logo: 
-masthead_title: "Site Title"
+masthead_title: "Z-World"
 
 # Defaults for Posts and Pages
 defaults:
@@ -102,9 +102,9 @@ collections:
 # -----------------------------------------------------------------------------
 
 author:
-  name   : "Your Name"
+  name   : "Jalen Carney"
   avatar : "/assets/images/blank-profile-picture"
-  bio    : "short bio line"
+  bio    : "Home"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
