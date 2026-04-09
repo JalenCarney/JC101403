@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Page Title"
+title: "Jalen Carney"
 permalink: /about/
 author_profile: true
 ---
