@@ -21,4 +21,4 @@ Written deliverables go here
 ---
 
 ### Resources
-- https://jc1014.itch.io/facade
+- https://jc1014.itch.io/simplycom
