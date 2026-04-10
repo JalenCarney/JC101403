@@ -7,15 +7,15 @@ structured combat scenarios. It is designed to showcase core strategy mechanics,
 gameplay, and complete gameplay loops from start to finish."
 
 header:
-  overlay_image: <img width="1373" height="767" alt="Screenshot 2026-02-23 201422" src="https://github.com/user-attachments/assets/dacce3d1-7ebd-4edd-8cb8-ff62d0dfcc75" />
+  overlay_image: ![alt text](<Screenshot 2026-02-23 201422.png>)
 
   teaser: 
   overlay_filter: 0.5
 
 project_brief: "Short sidebar summary of project requirements/needs."
-project_role: "Your role on the project"
-project_tools: "list tools, separate with commas"
-project_date: "Date the project was completed"
+project_role: "Developer of project"
+project_tools: "Unity"
+project_date: "2/09/26"
 ---
 ## Heading 
 Written deliverables go here
@@ -25,7 +25,4 @@ Written deliverables go here
 ---
 
 ### Resources
-- List links to resources on the project, for example
-- Link to Github repo for project
-- Link to piece on ArtStation
-- Link to Itch.io game project was used for
+- https://jc1014.itch.io/facade
