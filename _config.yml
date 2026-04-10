@@ -16,7 +16,7 @@ github_username:  JC101403
 # -----------------------------------------------------------------------------
 
 baseurl: "" 
-url: "https://yourusername.github.io"
+url: "https://JC101403.github.io"
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
