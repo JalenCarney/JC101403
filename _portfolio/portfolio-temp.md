@@ -1,10 +1,6 @@
 ---
 title: "SimplyCom"
-excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of
-soldiers, each with unique abilities, and completes missions by eliminating all hostile forces. The
-game focuses on tactical decision-making, positioning, and ability management within
-structured combat scenarios. It is designed to showcase core strategy mechanics, squad-based
-gameplay, and complete gameplay loops from start to finish."
+excerpt: "SimplyCom is a turn-based strategy game where the player takes command of a squad of super soldiers"
 
 header:
   overlay_image:

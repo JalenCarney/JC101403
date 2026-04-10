@@ -9,4 +9,4 @@ header:
   overlay_image: 
 ---
 
-Page content goes here ...
+The Beginning of my thoughts.

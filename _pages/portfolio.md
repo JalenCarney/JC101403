@@ -8,4 +8,4 @@ entries_layout: grid
 author_profile: true
 ---
 
-Page content goes here ...
+Compilation of my work from game development in Unity & Modeling/Animating in Blender
