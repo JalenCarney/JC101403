@@ -3,11 +3,11 @@ layout: splash
 permalink: /
 
 feature_row:
-  - image_path: /assets/images/feature-img.png
+  - image_path: /assets/images/test.png
     alt: "Alternative text for image"
-    title: "Project title"
+    title: "Simpycom"
     excerpt: "summary of project."
-    url: "/portfolio/project-filename/"
+    url: "/portfolio/portfolio-temp/"
     btn_label: "View"
     btn_class: "btn--primary"
 ---
