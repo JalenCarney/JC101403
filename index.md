@@ -11,7 +11,7 @@ feature_row:
     btn_label: "View"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/test.png
+  - image_path: /assets/images/Facade.png
     alt: "Alternative text for image"
     title: "Harvest Horizon"
     excerpt: "Facade is a pixel 2D local PVP arena fighting consiting of a variety of different playstyles"
