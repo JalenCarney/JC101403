@@ -43,20 +43,20 @@ alice_animation_gallery:
     alt: "Clay turntable"
 
 alice_iteration_gallery:
-  - url: /assets/images/Alice/Alice_Iteration1.jpg
-    image_path: /assets/images/Alice/Alice_Iteration1.jpg
+  - url: /assets/images/Alice/Alice_Iteration1.png
+    image_path: /assets/images/Alice/Alice_Iteration1.png
     alt: "Early blockout stage"
 
-  - url: /assets/images/Alice/Alice_Iteration2.jpg
-    image_path: /assets/images/Alice/Alice_Iteration2.jpg
+  - url: /assets/images/Alice/Alice_Iteration2.png
+    image_path: /assets/images/Alice/Alice_Iteration2.png
     alt: "Sculpting phase"
 
-  - url: /assets/images/Alice/Alice_Iteration3.jpg
-    image_path: /assets/images/Alice/Alice_Iteration3.jpg
+  - url: /assets/images/Alice/Alice_Iteration3.png
+    image_path: /assets/images/Alice/Alice_Iteration3.png
     alt: "Texturing phase"
 
-  - url: /assets/images/Alice/Alice_Iteration4.jpg
-    image_path: /assets/images/Alice/Alice_Iteration4.jpg
+  - url: /assets/images/Alice/Alice_Iteration4.png
+    image_path: /assets/images/Alice/Alice_Iteration4.png
     alt: "Final polish stage"
 ---
 ## Overview
