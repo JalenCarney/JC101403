@@ -2,6 +2,10 @@
 layout: splash
 permalink: /
 
+header:
+  overlay_image: /assets/images/Banner.png
+  overlay_filter: 0.4
+
 feature_row:
   - image_path: /assets/images/SimplyCom.png
     alt: "Alternative text for image"
