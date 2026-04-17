@@ -3,7 +3,7 @@ title: "Alice"
 excerpt: "A 3D character created in Blender focusing on stylized design, modeling, and animation."
 
 header:
-  overlay_image: "/assets/images/Alice/Alice_Header.png"
+  overlay_image: "/assets/images/Alice/Alice_Header.jpg"
   teaser: "/assets/images/Alice/Alice_Teaser.png"
   overlay_filter: 0.4
 
@@ -25,8 +25,8 @@ alice_render_gallery:
     image_path: /assets/images/Alice/Alice_Wireframe.jpg
     alt: "Alice Wireframe"
 
-    url: /assets/images/Alice/Alice_Close.jpg
-    image_path: /assets/images/Alice/Alice_Close.jpg
+    url: /assets/images/Alice/Alice_Action.jpg
+    image_path: /assets/images/Alice/Alice_Action.jpg
     alt: "Alice Close-Up"
 
 alice_animation_gallery:
