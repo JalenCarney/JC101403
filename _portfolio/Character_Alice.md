@@ -4,7 +4,7 @@ excerpt: "A 3D character created in Blender focusing on stylized design, modelin
 
 header:
   overlay_image: "/assets/images/Alice/Alice_Header.jpg"
-  teaser: "/assets/images/Alice/Alice_Teaser.png"
+  teaser: "/assets/images/Alice/Alice_Header.jpg"
   overlay_filter: 0.4
 
 project_brief: "Personal 3D character art created in Blender"
