@@ -9,21 +9,25 @@ header:
 
 project_brief: "Personal 3D character art created in Blender"
 project_role: "3D Artist / Character Designer"
-project_tools: "Blender, Substance Painter (if used), Photoshop (if used)"
+project_tools: "Blender"
 project_date: "2026"
 
 alice_render_gallery:
-  - url: /assets/images/Alice/Alice_Front.png
-    image_path: /assets/images/Alice/Alice_Front.png
-    alt: "Alice front view render"
+  - url: /assets/images/Alice/Alice_Rendered.jpg
+    image_path: /assets/images/Alice/Alice_Rendered.jpg
+    alt: "Alice render"
 
-  - url: /assets/images/Alice/Alice_Side.png
-    image_path: /assets/images/Alice/Alice_Side.png
-    alt: "Alice side view render"
+  - url: /assets/images/Alice/Alice_UnRendered.jpg
+    image_path: /assets/images/Alice/Alice_UnRendered.jpg
+    alt: "Alice UnRender"
 
-  - url: /assets/images/Alice/Alice_Back.png
-    image_path: /assets/images/Alice/Alice_Back.png
-    alt: "Alice back view render"
+  - url: /assets/images/Alice/Alice_Wireframe.jpg
+    image_path: /assets/images/Alice/Alice_Wireframe.jpg
+    alt: "Alice Wireframe"
+
+    url: /assets/images/Alice/Alice_Close.jpg
+    image_path: /assets/images/Alice/Alice_Close.jpg
+    alt: "Alice Close-Up"
 
 alice_animation_gallery:
   - url: /assets/images/Alice/Alice_Idle.gif
