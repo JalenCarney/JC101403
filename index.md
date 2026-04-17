@@ -65,11 +65,6 @@ Page content
     <h3>Facade</h3>
   </a>
 
-  <a href="/portfolio/HarvestHorizon/" class="project-card">
-    <img src="/assets/images/HarvestHorizon.png">
-    <h3>Harvest Horizon</h3>
-  </a>
-
   <a href="/portfolio/Character_Alice/" class="project-card">
     <img src="/assets/images/Alice/Alice_Header.jpg">
     <h3>Alice</h3>
