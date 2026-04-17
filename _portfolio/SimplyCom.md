@@ -14,7 +14,7 @@ project_tools: "Unity"
 project_date: "2/09/26"
 ---
 ## Heading 
-Written deliverables go here
+SimplyCom is a turn-based strategy game where players command a squad of super soldiers in tactical combat scenarios. The objective is to eliminate enemy forces while managing positioning, abilities, and limited resources.
 
 ## External Assets & Libraries
 - Abel - Halo Infinite: Winter Camo Mark VI https://skfb.ly/oR98E
