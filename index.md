@@ -26,6 +26,14 @@ feature_row:
     url: "/portfolio/HarvestHorizon/"
     btn_label: "View"
     btn_class: "btn--primary"
+
+  - image_path: /assets/images/Alice/Alice_Header.jpg
+    alt: "Alternative text for image"
+    title: "Alice"
+    excerpt: "Alice is the 7th knight of the Grand Order sworn to protect the crown."
+    url: "/portfolio/Character_Alice/"
+    btn_label: "View"
+    btn_class: "btn--primary"
 ---
 
 
