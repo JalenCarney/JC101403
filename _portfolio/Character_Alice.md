@@ -61,6 +61,7 @@ alice_iteration_gallery:
 ---
 ## Overview
 Alice is a stylized 3D character created in Blender with a focus on capturing a fantasy medieval anime visual.
+[ArtStation Project](https://www.artstation.com/artwork/P6ABoL)
 
 ## Character Renders
 
