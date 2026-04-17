@@ -13,4 +13,4 @@ header:
   overlay_color: "#000000"
 ---
 
-Compilation of my work from game development in Unity & Modeling/Animating in Blender
+A collection of my work in **game development (Unity)** and **3D character art (Blender)**.
