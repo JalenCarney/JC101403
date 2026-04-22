@@ -1,6 +1,6 @@
 ---
 title: "Rider"
-excerpt: "Rider is a dynamic, high-impact character built around speed, motion, and aggressive style."
+excerpt: "Rider is a professional cleaner with a calmness that others would describe as very boring."
 
 header:
   overlay_image: "/assets/images/Rider/Rider_Header.png"
@@ -68,8 +68,7 @@ rider_iteration_gallery:
     alt: "Final polish stage"
 ---
 ## Overview
-Rider is a stylized 3D character designed to emphasize motion, energy, and a strong visual silhouette. The project explores dynamic posing, material contrast, and animation readiness.
-
+Rider is a professional cleaner with a calmness that others would describe as very boring.
 [View on ArtStation](#)
 
 ## Character Renders
