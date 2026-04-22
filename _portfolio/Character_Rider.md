@@ -69,7 +69,7 @@ rider_iteration_gallery:
 ---
 ## Overview
 Rider is a professional cleaner with a calmness that others would describe as very boring.
-[View on ArtStation](#)
+[View on ArtStation](https://www.artstation.com/artwork/x3aga4)
 
 ## Character Renders
 
