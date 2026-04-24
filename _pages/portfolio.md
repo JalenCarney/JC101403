@@ -9,7 +9,7 @@ author_profile: true
 
 header:
   overlay_image: /assets/images/UpsacledBanner.webp
-  overlay_filter: 0.35
+  overlay_filter: 0.4
   overlay_color: "#000000"
 ---
 
