@@ -6,7 +6,7 @@ author_profile: true
 entries_layout: list
 header:
   overlay_filter: "0.5"
-  overlay_image: 
+  overlay_image: /assets/images/UpsacledBanner.webp
 ---
 
 The Beginning of my thoughts.

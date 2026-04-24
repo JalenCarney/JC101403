@@ -4,6 +4,10 @@ title: "Jalen Carney(Zenith)"
 permalink: /about/
 author_profile: true
 ---
+header:
+  overlay_image: /assets/images/UpsacledBanner.webp
+  overlay_filter: 0.4
+  ---
 
 I am an aspiring game programmer with a strong foundation in Unity development and a 
 growing skill set that extends into 3D modeling, texturing, UVing and animating in Blender, video 
