@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 
 header:
-  overlay_image: /assets/images/Banner.png
+  overlay_image: /assets/images/UpsacledBanner.webp
   overlay_filter: 0.4
 
 feature_row:
