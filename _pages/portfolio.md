@@ -10,7 +10,6 @@ author_profile: true
 header:
   overlay_image: /assets/images/UpsacledBanner.webp
   overlay_filter: 0.4
-  overlay_color: "#000000"
 ---
 
 A collection of my work in **game development (Unity)** and **3D character art (Blender)**.
