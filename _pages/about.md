@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 header:
   overlay_image: /assets/images/Banner.png
-  overlay_filter: 0
+  overlay_filter: 0.5
   ---
 
 I am an aspiring game programmer with a strong foundation in Unity development and a 
