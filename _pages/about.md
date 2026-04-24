@@ -4,7 +4,7 @@ title: "Jalen Carney(Zenith)"
 permalink: /about/
 author_profile: true
 header:
-  overlay_image: /assets/images/UpsacledBanner.webp
+  overlay_image: /assets/images/Banner.png
   overlay_filter: 0
   ---
 
