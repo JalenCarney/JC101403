@@ -179,3 +179,32 @@ a:hover {
 .page__hero--overlay .page__lead {
   text-shadow: 0 10px 30px rgba(0,0,0,0.6);
 }
+
+.page__hero {
+  padding: 6em 1em 4em 1em;
+  text-align: center;
+  background: radial-gradient(circle at top, #12162a, var(--bg-dark));
+}
+
+/* Make hero feel like a designed landing page */
+.page__hero--overlay {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title styling (this is what you are missing) */
+.page__title {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  color: var(--text);
+}
+
+/* Subtitle / lead text */
+.page__lead {
+  font-size: 1.2rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
