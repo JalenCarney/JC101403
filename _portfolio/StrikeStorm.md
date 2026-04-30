@@ -16,13 +16,22 @@ project_date: "4/28/26"
 strikestorm_gallery:
   - url: /assets/images/StrikeStorm.png
     image_path: /assets/images/StrikeStorm.png
-    alt: "Gameplay screenshot 1"
+    alt: "Gameplay screenshot"
   - url: /assets/images/StrikeStorm_Game1.png
     image_path: /assets/images/StrikeStorm_Game1.png
-    alt: "Gameplay screenshot 2"
+    alt: "Gameplay screenshot 1"
   - url: /assets/images/StrikeStorm_Game2.png
     image_path: /assets/images/StrikeStorm_Game2.png
+    alt: "Gameplay screenshot 2"
+  - url: /assets/images/StrikeStorm_Game3.png
+    image_path: /assets/images/StrikeStorm_Game3.png
     alt: "Gameplay screenshot 3"
+  - url: /assets/images/StrikeStorm_Game4.png
+    image_path: /assets/images/StrikeStorm_Game4.png
+    alt: "Gameplay screenshot 4"
+  - url: /assets/images/StrikeStorm_Game5.png
+    image_path: /assets/images/StrikeStorm_Game5.png
+    alt: "Gameplay screenshot 5"
 ---
 
 ## Heading 
