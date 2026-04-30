@@ -14,15 +14,3 @@ main:
     url: /posts/
     description: "Dev logs & design breakdowns"
     
-    portfolio_sidebar:
-  - title: "Project Overview"
-    children:
-      - title: "Summary"
-      - title: "Gameplay"
-      - title: "Systems"
-      - title: "Development Notes"
-
-  - title: "Links"
-    children:
-      - title: "Play / Download"
-      - title: "Source / Repo"
