@@ -62,6 +62,10 @@ jin_iteration_gallery:
   - url: /assets/images/Jin/Jin_Iteration4.png
     image_path: /assets/images/Jin/Jin_Iteration4.png
     alt: "Final polish stage"
+
+  - url: /assets/images/Jin/Jin_Iteration4.png
+    image_path: /assets/images/Jin/Jin_Iteration4.png
+    alt: "Final polish stage"
 ---
 ## Overview
 Jin is a contract-bound sci-fi samurai for hire, operating in the outskirts of corporate-controlled space. His reputation is built on precision, silence, and the unsettling calm he carries into every job.
