@@ -1,10 +1,28 @@
 main:
+  - title: "Home"
+    url: /
+
   - title: "About"
     url: /about/
+    description: "Who I am & what I build"
+
   - title: "Portfolio"
     url: /portfolio/
+    description: "Projects, systems, and gameplay work"
+
   - title: "Blog"
     url: /posts/
+    description: "Dev logs & design breakdowns"
     
-portfolio_sidebar:
-  - title: "Project Details"
+    portfolio_sidebar:
+  - title: "Project Overview"
+    children:
+      - title: "Summary"
+      - title: "Gameplay"
+      - title: "Systems"
+      - title: "Development Notes"
+
+  - title: "Links"
+    children:
+      - title: "Play / Download"
+      - title: "Source / Repo"
