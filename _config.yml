@@ -1,26 +1,36 @@
-# -----------------------------------------------------------------------------
-# ⚙️ Site Settings
-# -----------------------------------------------------------------------------
+# =============================================================================
+# ⚙️ SITE SETTINGS
+# =============================================================================
 
 title: "Zen's Hub"
-email: jalencarney@gmail.com
+email: "jalencarney@gmail.com"
+
 description: >-
-  "The Peak"
+  The Peak — A showcase of creative development, gameplay systems,
+  and interactive experiences by Zenith.
 
-# Branding & Social
-twitter_username: 
-github_username:  JC101403
-
-# -----------------------------------------------------------------------------
-# 🛠️ Build Settings
-# -----------------------------------------------------------------------------
-
-baseurl: "" 
 url: "https://JC101403.github.io"
+baseurl: ""
+
+
+# =============================================================================
+# 🧑‍💻 BRANDING & SOCIAL
+# =============================================================================
+
+github_username: JC101403
+twitter_username:
+
+site_author: "Jalen Carney (Zenith)"
+masthead_title: "Zen's Hub"
+logo: # Optional: add later for stronger branding
+
+
+# =============================================================================
+# 🛠️ BUILD SETTINGS
+# =============================================================================
 
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes"
-# Removed include: ["_pages"] to avoid collection conflicts
 
 plugins:
   - jekyll-feed
@@ -29,107 +39,130 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
 
-# -----------------------------------------------------------------------------
-# 🎨 Theme Settings
-# -----------------------------------------------------------------------------
-
-minimal_mistakes_skin: "neon"
-site_author: "Jalen Carney(Zenith)"
 paginate: 5
 words_per_minute: 200
 
-# Masthead (Top Navigation) Settings
-logo: 
-masthead_title: "Zen's Hub"
 
-# Defaults for Posts and Pages
+# =============================================================================
+# 🎨 THEME & UI
+# =============================================================================
+
+minimal_mistakes_skin: "neon"
+
+# Global header styling
+header_defaults: &header_defaults
+  overlay_color: "#6C2BD9"   # slightly richer purple
+  overlay_filter: 0.5
+  overlay_image:             # add hero image later
+
+
+# =============================================================================
+# 📄 DEFAULT LAYOUTS
+# =============================================================================
+
 defaults:
+
+  # -------------------------
+  # Pages
+  # -------------------------
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      header:
-        overlay_color: "#7851A9"
-        overlay_image:    
-      author_profile: true # Author profile (left sidebar) is visible
-      toc: true             # Table of Contents (right sidebar) is visible
-      toc_label: "Contents" # Optional: Custom title for the TOC
-      toc_icon: "book"      # Optional: FontAwesome icon
-      toc_sticky: true      # This makes it stick to the sidebar
-  
+      header: *header_defaults
+      author_profile: true
+
+      # Table of Contents
+      toc: true
+      toc_label: "On This Page"
+      toc_icon: "book"
+      toc_sticky: true
+
+
+  # -------------------------
+  # Blog Posts
+  # -------------------------
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      header:
-        overlay_color: "#7851A9"
-        overlay_image: 
-      author_profile: true # Author profile (left sidebar) is visible
-      toc: true             # Table of Contents (right sidebar) is visible
-      toc_label: "Contents" # Optional: Custom title for the TOC
-      toc_icon: "book"      # Optional: FontAwesome icon
-      toc_sticky: true      # This makes it stick to the sidebar
- 
+      header: *header_defaults
+      author_profile: true
+
+      toc: true
+      toc_label: "On This Page"
+      toc_icon: "book"
+      toc_sticky: true
+
+
+  # -------------------------
+  # Portfolio Items
+  # -------------------------
   - scope:
       path: ""
-      type: portfolio # Matches the collection name above
+      type: portfolio
     values:
       layout: portfolio-item
-      header:
-        overlay_color: "#7851A9"
-        overlay_image:
-      author_profile: true # Author profile (left sidebar) is visible
-      sidebar: 
-        nav: "portfolio_sidebar"  # Custom Portfolio (left sidebar) is visible
-      toc: true # Table of Contents (right sidebar) is visible
+      header: *header_defaults
+      author_profile: true
 
-include:
-  - _pages
-      
-# -----------------------------------------------------------------------------
-# 📂 Collections Settings 
-# -----------------------------------------------------------------------------
+      sidebar:
+        nav: "portfolio_sidebar"
+
+      toc: true
+
+
+# =============================================================================
+# 📂 COLLECTIONS
+# =============================================================================
 
 collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
 
-# -----------------------------------------------------------------------------
-# 👤 Author Settings
-# -----------------------------------------------------------------------------
+
+include:
+  - _pages
+
+
+# =============================================================================
+# 👤 AUTHOR PROFILE
+# =============================================================================
 
 author:
-  name   : "Jalen Carney(Zenith)"
-  avatar : "/assets/images/Artstation_Cover.jpg"
-  bio    : "Home"
+  name: "Jalen Carney (Zenith)"
+  avatar: "/assets/images/Artstation_Cover.jpg"
+  bio: "Game Developer • Systems Designer • Creative Technologist"
+
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jalencarney?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      url: "https://www.linkedin.com/in/jalencarney"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/JalenCarney"  
+      url: "https://github.com/JalenCarney"
+
     - label: "Itch.io"
       icon: "fab fa-fw fa-itch-io"
       url: "https://jc1014.itch.io"
+
     - label: "ArtStation"
       icon: "fab fa-fw fa-artstation"
       url: "https://www.artstation.com/jc1014"
 
-# -----------------------------------------------------------------------------
-# 🚫 Exclusions
-# -----------------------------------------------------------------------------
+
+# =============================================================================
+# 🚫 EXCLUDED FILES
+# =============================================================================
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - .jekyll-cache
   - .jekyll-metadata
