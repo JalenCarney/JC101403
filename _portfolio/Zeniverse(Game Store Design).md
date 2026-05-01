@@ -25,6 +25,15 @@ zeniverse_gallery:
   - url: /assets/images/Zeniverse/Zeniverse_4.png
     image_path: /assets/images/Zeniverse/Zeniverse_4.png
     alt: "Library + layout configuration"
+  - url: /assets/images/Zeniverse/Zeniverse_1GIF.gif
+    image_path: /assets/images/Zeniverse/Zeniverse_1GIF.gif
+    alt: "Library + layout configuration"
+  - url: /assets/images/Zeniverse/Zeniverse_2GIF.gif
+    image_path: /assets/images/Zeniverse/Zeniverse_2GIF.gif
+    alt: "Library + layout configuration"
+  - url: /assets/images/Zeniverse/Zeniverse_3GIF.gif
+    image_path: /assets/images/Zeniverse/Zeniverse_3GIF.gif
+    alt: "Library + layout configuration"
 ---
 
 
