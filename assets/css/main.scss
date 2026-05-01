@@ -456,32 +456,70 @@ a:hover {
 }
 
 /* =========================================================
-   🎬 FEATURE ROW FIX (uniform cinematic cards)
+   🧩 FEATURE ROW = CINEMATIC PROJECT CARDS
    ========================================================= */
 
 .feature__item {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+
+  background: rgba(20, 20, 30, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
-/* force all images into same ratio */
+/* 🌟 glow layer */
+.feature__item::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    rgba(120, 81, 169, 0),
+    rgba(120, 81, 169, 0.25),
+    rgba(120, 81, 169, 0)
+  );
+  filter: blur(22px);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 0;
+}
+
+/* 💡 hover lift */
+.feature__item:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.55);
+}
+
+.feature__item:hover::before {
+  opacity: 1;
+}
+
+/* 🖼 image styling */
 .feature__item img {
   width: 100%;
-  height: 220px;              /* key fix */
-  object-fit: cover;          /* crops instead of stretching */
-  object-position: center;
-  border-radius: 12px;
+  height: 240px;
+  object-fit: cover;
+  transition: transform 0.45s ease;
 }
 
-/* equal card spacing */
-.feature__item--center {
+.feature__item:hover img {
+  transform: scale(1.08);
+}
+
+/* 🧾 text */
+.feature__item h3 {
+  margin: 0;
+  padding: 14px;
   text-align: center;
-}
-
-/* makes buttons align consistently */
-.feature__item .btn {
-  margin-top: auto;
+  color: #eae6ff;
 }
 
 /* =========================================================
