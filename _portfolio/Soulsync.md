@@ -16,17 +16,17 @@ soulsync_gallery:
   - url: /assets/images/Soulsync/Soulsync_1.png
     image_path: /assets/images/Soulsync/Soulsync_1.png
     alt: "Party exploring dungeon environment"
-  - url: /assets/images/Soulsync/Soulsync_2.png
-    image_path: /assets/images/Soulsync/Soulsync_2.png
+  - url: /assets/images/Soulsync/Soulsync_2.jpg
+    image_path: /assets/images/Soulsync/Soulsync_2.jpg
     alt: "Combat encounter gameplay"
-  - url: /assets/images/Soulsync/Soulsync_3.png
-    image_path: /assets/images/Soulsync/Soulsync_3.png
+  - url: /assets/images/Soulsync/Soulsync_3.jpg
+    image_path: /assets/images/Soulsync/Soulsync_3.jpg
     alt: "Boss encounter UI and arena"
-  - url: /assets/images/Soulsync/Soulsync_4.png
-    image_path: /assets/images/Soulsync/Soulsync_4.png
+  - url: /assets/images/Soulsync/Soulsync_4.jpg
+    image_path: /assets/images/Soulsync/Soulsync_4.jpg
     alt: "Assassin character abilities showcase"
-  - url: /assets/images/Soulsync/Soulsync_5.png
-    image_path: /assets/images/Soulsync/Soulsync_5.png
+  - url: /assets/images/Soulsync/Soulsync_5.jpg
+    image_path: /assets/images/Soulsync/Soulsync_5.jpg
     alt: "Assassin character abilities showcase"
 ---
 
