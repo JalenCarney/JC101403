@@ -733,8 +733,8 @@ a:hover {
   max-width: 100% !important;
 }
 
-/* PROJECT PAGES: remove sidebar entirely */
-.layout--single .sidebar {
+.layout--collection .sidebar,
+.layout--splash .sidebar {
   display: none !important;
 }
 
