@@ -588,16 +588,17 @@ a:hover {
 }
 
 .page__inner-wrap {
-  max-width: 1400px !important; /* widen content */
+  max-width: 1400px !important;
   margin: 0 auto !important;
 }
 
-/* remove tight blog-style padding */
+/* widen content spacing */
 .page__content {
   padding-left: 2rem;
   padding-right: 2rem;
+}
 
-  /* widen article content specifically */
+/* remove blog-style narrow text limits */
 .page__content p,
 .page__content li,
 .page__content h1,
@@ -607,7 +608,7 @@ a:hover {
 }
 
 /* =========================================================
-   🧱 REMOVE BLOG COLUMN FEEL
+   🧱 REMOVE BLOG COLUMN FEEL (project pages only)
    ========================================================= */
 
 .layout--single .page__content {
@@ -616,6 +617,5 @@ a:hover {
 }
 
 .layout--single .sidebar {
-  display: none; /* optional: removes side clutter on project pages */
-}
+  display: none; /* optional */
 }
