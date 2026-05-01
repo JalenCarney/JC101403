@@ -156,45 +156,86 @@ body,
 }
 
 /* =========================================================
-   🧩 PROJECT GRID
+   🧊 PROJECT CARD = FEATURE CARD (UNIFIED DESIGN)
    ========================================================= */
 
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
-  margin-top: 2em;
+.project-card {
+  position: relative;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text);
+
+  /* glass base (same as feature__item) */
+  background: rgba(20, 20, 30, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
-.project-card {
-  background: linear-gradient(145deg,
-    rgba(25,25,40,0.9),
-    rgba(15,15,25,0.8)
+/* =========================================================
+   🌟 GLOW LAYER (same as featured cards)
+   ========================================================= */
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    rgba(120, 81, 169, 0.0),
+    rgba(120, 81, 169, 0.25),
+    rgba(120, 81, 169, 0.0)
   );
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  overflow: hidden;
-  color: var(--text);
-  text-decoration: none;
-  transition: 0.25s ease;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 0;
 }
+
+/* =========================================================
+   💡 HOVER EFFECT (lift + glow + depth)
+   ========================================================= */
 
 .project-card:hover {
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(120, 81, 169, 0.25);
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
 }
+
+.project-card:hover::before {
+  opacity: 1;
+}
+
+/* =========================================================
+   🖼 IMAGE (match featured card behavior)
+   ========================================================= */
 
 .project-card img {
   width: 100%;
-  height: 200px;
+  height: 240px;
   object-fit: cover;
-  object-position: top;
+  object-position: center;
+  transition: transform 0.4s ease;
 }
 
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+/* =========================================================
+   🧾 TITLE LAYER
+   ========================================================= */
+
 .project-card h3 {
-  padding: 12px;
   margin: 0;
+  padding: 14px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 /* =========================================================
@@ -626,45 +667,3 @@ a:hover {
   max-width: 100% !important;
 }
 
-/* =========================================================
-   🚀 TRUE FULL WIDTH OVERRIDE (Minimal Mistakes FIX)
-   ========================================================= */
-
-/* kill global MM container constraint */
-.container {
-  max-width: 100% !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* remove the theme’s built-in page centering */
-.initial-content {
-  max-width: 100% !important;
-}
-
-/* force body-level full width */
-body {
-  margin: 0 !important;
-  overflow-x: hidden;
-}
-
-/* main page wrapper */
-.page {
-  max-width: 100% !important;
-  padding: 0 !important;
-}
-
-/* THIS is the real culprit in MM layouts */
-.page__inner-wrap {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* content should still have controlled breathing room */
-.page__content {
-  max-width: 100% !important;
-  padding-left: clamp(16px, 4vw, 80px);
-  padding-right: clamp(16px, 4vw, 80px);
-}
