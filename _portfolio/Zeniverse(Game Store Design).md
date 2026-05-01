@@ -1,41 +1,60 @@
 ---
 title: "ZeniVerse (Game Store Design)"
-excerpt: "A personalized game store UI concept where users can design and customize their own storefront experience, built for an interaction design course."
+excerpt: "A customizable digital game storefront concept where users can personalize layout, themes, and content hierarchy to reflect their identity."
 
 header:
   overlay_image: "/assets/images/Zeniverse/Zeniverse_Header.png"
   teaser: "/assets/images/Zeniverse/Zeniverse_Header.png"
   overlay_filter: 0.5
 
-layout: single
-author_profile: true
-
+project_brief: "Interaction design project exploring personalized UI systems for digital storefronts."
 project_role: "Interaction Designer / UI Systems Designer"
-project_tools: "UX Research, UI Prototyping"
+project_tools: "UX Research, Figma, UI Prototyping"
 project_date: "2026"
-project_brief: "A customizable digital game storefront where users can personalize layout, themes, and content hierarchy to reflect their identity."
 
-gallery:
+zeniverse_gallery:
   - url: /assets/images/Zeniverse/Zeniverse_1.png
     image_path: /assets/images/Zeniverse/Zeniverse_1.png
-    alt: "Main storefront customization UI"
+    alt: "Storefront customization interface"
   - url: /assets/images/Zeniverse/Zeniverse_2.png
     image_path: /assets/images/Zeniverse/Zeniverse_2.png
     alt: "Theme personalization system"
   - url: /assets/images/Zeniverse/Zeniverse_3.png
     image_path: /assets/images/Zeniverse/Zeniverse_3.png
-    alt: "Library + discovery interface"
+    alt: "Adaptive game discovery UI"
   - url: /assets/images/Zeniverse/Zeniverse_4.png
     image_path: /assets/images/Zeniverse/Zeniverse_4.png
-    alt: "Library + discovery interface"
-  - url: /assets/images/Zeniverse/Zeniverse_1GIF.gif
-    image_path: /assets/images/Zeniverse/Zeniverse_1GIF.gif
-    alt: "Library + discovery interface"
-  - url: /assets/images/Zeniverse/Zeniverse_2GIF.gif
-    image_path: /assets/images/Zeniverse/Zeniverse_2GIF.gif
-    alt: "Library + discovery interface"
-  - url: /assets/images/Zeniverse/Zeniverse_3GIF.gif
-    image_path: /assets/images/Zeniverse/Zeniverse_3GIF.gif
-    alt: "Library + discovery interface"
+    alt: "Library + layout configuration"
 ---
-{% include gallery id="gallery" %}
+
+
+## Heading
+
+ZeniVerse is a personalized game store UI concept focused on user-driven customization. Instead of a static storefront, the system allows users to design how their digital game library is experienced.
+
+The interface adapts around the user’s preferences, enabling changes in layout structure, visual theme, and content prioritization. This creates a storefront that feels individually owned rather than universally imposed.
+
+As users interact with the system, recommendations and layout emphasis shift based on browsing behavior and selected preferences, reinforcing a sense of ownership over the digital environment.
+
+---
+
+## Gallery
+
+{% include gallery id="zeniverse_gallery" %}
+
+---
+
+## Interaction Design Focus
+
+ZeniVerse explores how digital storefronts can move beyond standardized layouts into adaptive UI systems.
+
+Key design goals included:
+- Personal expression through interface customization
+- Modular layout systems for flexible browsing
+- Reduced friction in navigating game discovery
+- Strong visual identity per user profile
+
+---
+
+## Resources
+<iframe frameborder="0" src="https://itch.io/embed/4523118" width="552" height="167"><a href="https://jc1014.itch.io/game-store-interface">Game Store Interface (ZeniVerse) by Zenith</a></iframe>
