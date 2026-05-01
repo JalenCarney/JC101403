@@ -578,3 +578,22 @@ a:hover {
 
   transition: background 0.05s linear;
 }
+
+/* =========================================================
+   📐 FULL WIDTH PAGE LAYOUT FIX (Portfolio feel)
+   ========================================================= */
+
+.page {
+  margin: 0 !important;
+}
+
+.page__inner-wrap {
+  max-width: 1400px !important; /* widen content */
+  margin: 0 auto !important;
+}
+
+/* remove tight blog-style padding */
+.page__content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
