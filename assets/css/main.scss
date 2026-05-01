@@ -596,4 +596,26 @@ a:hover {
 .page__content {
   padding-left: 2rem;
   padding-right: 2rem;
+
+  /* widen article content specifically */
+.page__content p,
+.page__content li,
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  max-width: 100%;
+}
+
+/* =========================================================
+   🧱 REMOVE BLOG COLUMN FEEL
+   ========================================================= */
+
+.layout--single .page__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.layout--single .sidebar {
+  display: none; /* optional: removes side clutter on project pages */
+}
 }
