@@ -3,8 +3,8 @@ title: "Soulsync"
 excerpt: "A PvE multiplayer roguelike where players are bound by a shared curse while uncovering the truth behind a corporate-controlled fantasy world."
 
 header:
-  overlay_image: "/assets/images/Soulsync/Soulsync_Header.png"
-  teaser: "/assets/images/Soulsync/Soulsync_Header.png"
+  overlay_image: "/assets/images/Soulsync/Soulsync_Header.gif"
+  teaser: "/assets/images/Soulsync/Soulsync_Header.gif"
   overlay_filter: 0.5
 
 project_brief: "A multiplayer roguelike set in a sci-fi fantasy world controlled by a corrupt corporate entity. Players must survive a cursed dungeon run while uncovering the truth behind their manipulation."
