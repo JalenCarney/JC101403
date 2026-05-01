@@ -703,26 +703,51 @@ a:hover {
 }
 
 /* =========================================================
-   🚀 FIX SPLASH PAGE FULL-WIDTH + CENTER BALANCE
+   👤 HERO PROFILE (LEFT EDGE ALIGNMENT)
    ========================================================= */
 
-.layout--splash .page__inner-wrap {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 auto !important;
+.hero-profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  width: 100%;
+  padding-left: clamp(16px, 5vw, 120px);
+  padding-right: clamp(16px, 5vw, 120px);
+
+  margin-top: 20px;
 }
 
-/* restore controlled breathing room */
-.layout--splash .page__content {
-  max-width: 1400px !important;
-  margin: 0 auto !important;
+.hero-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
 
-  padding-left: clamp(20px, 5vw, 120px);
-  padding-right: clamp(20px, 5vw, 120px);
+  border: 2px solid rgba(120, 81, 169, 0.6);
+  box-shadow: 0 0 25px rgba(120, 81, 169, 0.25);
 }
 
-/* prevent feature row from hugging edges */
-.layout--splash .feature__wrapper {
-  padding-left: clamp(20px, 5vw, 100px);
-  padding-right: clamp(20px, 5vw, 100px);
+.hero-info h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.hero-info p {
+  margin: 4px 0 10px;
+  color: var(--muted);
+}
+
+/* links */
+.hero-links a {
+  margin-right: 14px;
+  color: var(--text);
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.hero-links a:hover {
+  color: var(--primary);
+  text-shadow: 0 0 10px rgba(120, 81, 169, 0.5);
 }

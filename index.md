@@ -1,7 +1,8 @@
 ---
 layout: splash
 permalink: /
-
+author_profile: false
+sidebar: false
 header:
   overlay_image: /assets/images/UpsacledBanner.webp
   overlay_filter: 0.55
