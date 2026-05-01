@@ -27,17 +27,17 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Facade.png
-    title: "Facade"
-    excerpt: "Fast-paced pixel PvP fighter built around diverse playstyles."
-    url: "/portfolio/Facade/"
-    btn_label: "View Project"
-    btn_class: "btn--primary"
-
   - image_path: /assets/images/Soulsync/Soulsync_Header.gif
     title: "Soulsync"
     excerpt: "A PvE multiplayer roguelike where players are bound by a shared curse while uncovering the truth behind a corporate-controlled fantasy world."
     url: "/portfolio/Soulsync/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/Facade.png
+    title: "Facade"
+    excerpt: "Fast-paced pixel PvP fighter built around diverse playstyles."
+    url: "/portfolio/Facade/"
     btn_label: "View Project"
     btn_class: "btn--primary"
 
