@@ -30,10 +30,6 @@ diego_render_gallery:
     alt: "Diego action pose"
 
 diego_animation_gallery:
-  - url: /assets/images/Diego/Diego_Idle.gif
-    image_path: /assets/images/Diego/Diego_Idle.gif
-    alt: "Diego idle animation"
-
   - url: /assets/images/Diego/Diego_Turntable.gif
     image_path: /assets/images/Diego/Diego_Turntable.gif
     alt: "Turntable animation of Diego"
