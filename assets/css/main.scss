@@ -701,3 +701,28 @@ a:hover {
   padding-left: clamp(16px, 5vw, 120px) !important;
   padding-right: clamp(16px, 5vw, 120px) !important;
 }
+
+/* =========================================================
+   🚀 FIX SPLASH PAGE FULL-WIDTH + CENTER BALANCE
+   ========================================================= */
+
+.layout--splash .page__inner-wrap {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* restore controlled breathing room */
+.layout--splash .page__content {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+
+  padding-left: clamp(20px, 5vw, 120px);
+  padding-right: clamp(20px, 5vw, 120px);
+}
+
+/* prevent feature row from hugging edges */
+.layout--splash .feature__wrapper {
+  padding-left: clamp(20px, 5vw, 100px);
+  padding-right: clamp(20px, 5vw, 100px);
+}
