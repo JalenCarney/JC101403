@@ -625,3 +625,10 @@ a:hover {
 .layout--single .page__inner-wrap {
   max-width: 100% !important;
 }
+
+.sidebar {
+  position: sticky;
+  top: 90px; /* adjust to match masthead height */
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+}
