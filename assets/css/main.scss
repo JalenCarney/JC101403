@@ -523,3 +523,28 @@ a:hover {
   box-shadow: 0 0 20px rgba(120, 81, 169, 0.15);
   transform: translateY(-2px);
 }
+
+/* =========================================================
+   🧭 CURSOR-REACTIVE NAV LIGHT
+   ========================================================= */
+
+.masthead {
+  position: relative;
+  overflow: hidden;
+}
+
+/* the cursor glow layer */
+.masthead .nav-cursor-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(120, 81, 169, 0.25),
+    transparent 60%
+  );
+
+  transition: background 0.05s linear;
+}
